@@ -1,7 +1,9 @@
 body {
     margin: 0;
+    height: 100vh;
     background-image: url(photo.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     
 }
 /* .navbar { 
@@ -43,8 +45,10 @@ form h2 {
 .inner-box button {
     width: 50%;
     margin: auto;
-    background-color: #C19A6B;
-    border: none;
+    /* background-color: #C19A6B; */
+    backdrop-filter:blur(20px);
+    background: transparent;
+    border: 2px solid white;
     border-radius: 20px;
     color: white;
     font-size: 15px;
@@ -63,3 +67,14 @@ input {
     border-radius: 10px;
     padding-left: 10px;
 }
+button {
+    border: 2px beige solid; 
+    backdrop-filter:blur(20px);
+    background: transparent;
+    cursor: pointer;
+}
+button:hover {
+    background-color: white;
+    transition: 0.5s;
+    color: black;
+} 
