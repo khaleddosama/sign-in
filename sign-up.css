@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    padding: 0;
     background-image: url(Grand-egyptian-museum.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,3 +63,14 @@ input {
     border-radius: 10px;
     padding-left: 10px;
 }
+button {
+    border: 2px beige solid; 
+    backdrop-filter:blur(20px);
+    background: transparent;
+    cursor: pointer;
+}
+button:hover {
+    background-color: white;
+    transition: 2s;
+    color: black;
+} 
