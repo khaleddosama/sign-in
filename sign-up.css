@@ -1,6 +1,9 @@
 body {
     margin: 0;
-    background-color: #C19A6B;
+    padding: 0;
+    background-image: url(Grand-egyptian-museum.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /* .navbar { 
     height: 100px;
@@ -15,7 +18,9 @@ form {
     width: 250px;
     border-radius: 20px;
     padding: 20px;
-    background-color: #5D3A1A ;
+    border: 2px beige solid; 
+    backdrop-filter:blur(20px);
+    background: transparent;
 }
 .box {
     height: 39.6em;
@@ -47,7 +52,7 @@ form h2 {
     padding: 10px;
 }
 .signup-link {
-    margin-top: 40px;
+    margin-top: 30px;
     color: white;
 }
 .signup-link a {
