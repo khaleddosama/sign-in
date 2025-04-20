@@ -1,6 +1,8 @@
 body {
     margin: 0;
-    background-color: #C19A6B;
+    background-image: url(photo.jpg);
+    background-repeat: no-repeat;
+    
 }
 /* .navbar { 
     height: 100px;
@@ -11,11 +13,13 @@ body {
     color: white;}*/
 
 form {
-    height: 400px;
+    height: 350px; 
     width: 250px;
     border-radius: 20px;
     padding: 20px;
-    background-color: #5D3A1A ;
+    border: 2px beige solid; 
+    backdrop-filter:blur(10px);
+    background: transparent;
 }
 .box {
     height: 39.6em;
@@ -25,7 +29,7 @@ form {
 }
 
 form h2 {
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
     color: white;
     margin-block: 20px;
@@ -47,7 +51,7 @@ form h2 {
     padding: 10px;
 }
 .signup-link {
-    margin-top: 60px;
+    margin-top: 40px;
     color: white;
 }
 .signup-link a {
