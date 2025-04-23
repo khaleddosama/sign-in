@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    /*background-image: url(bab-edit.png);
+    background-repeat: no-repeat;
+     background-size: cover;*/ 
+    /* background-position: center; */
+}
+.image {
+    height: 70vh;
+    background-image: url(edit-edit-bab.png); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+* {
+    text-decoration: none;
+}
+.navbar {
+    /* background: #7d7d7d; */
+    background-color: transparent;
+    backdrop-filter:blur(10px);
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a {
+    padding: 10px;
+    font-size: 35px;
+    font-weight: 600;
+    color: black;
+    cursor: default;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+li a {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+button {
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+}
+button a {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+button:hover {
+    background-color: white;
+    transition: 0.5s;
+}
+button:hover a {
+    color: black;
+}
+input {
+    padding: 3px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: white;
+}
+::placeholder {
+    color: grey;
+    font-weight: bold;
+    opacity: 1;
+}
+.content-section {
+    display: flex;
+    align-items: center;  /* Vertically centers content with image */
+    gap: 60px;
+    margin: 50px auto;
+    max-width: 1400px;
+    padding: 0 30px;
+}
+.text-content {
+    flex: 1; /* takes available space */
+    min-width: 50%;
+}
+.main-heading {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+.lead-paragraph {
+    font-size: 33px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #333; /* Slightly darker for emphasis */
+    font-weight: 600;
+}
+p {
+    font-size: 25px; /* Larger paragraph text */
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+.image-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.featured-image {
+    width: 100%;
+    /* max-height: 600px; */
+    /* width: auto; */
+    /* max-width: 100%; */
+    border-radius: 15px;
+    box-shadow: 0 15px 30px black;
+    object-fit: contain;
+}
