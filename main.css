@@ -109,6 +109,7 @@ p {
     margin-bottom: 25px;
 }
 .image-content {
+    margin-top: 200px;
     flex: 1;
     display: flex;
     justify-content: center;
@@ -124,7 +125,7 @@ p {
     object-fit: contain;;
     margin-top: -250px;
 }
-.mainimage {
+/*.mainimage { 
     width: 40%;
     box-shadow: 0 15px 30px black;
     border-radius: 15px;
@@ -135,4 +136,4 @@ p {
     margin-left: 5%;
 
   
-}
+ }*/ 
