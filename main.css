@@ -8,7 +8,7 @@ body {
 }
 .image {
     height: 70vh;
-    background-image: url(edit-edit-bab.png); /* Replace with your image path */
+    background-image: url(edit-edit-bab.png);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -30,7 +30,7 @@ body {
 }
 .logo a {
     padding: 10px;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 600;
     color: black;
     cursor: default;
@@ -91,6 +91,11 @@ input {
     font-size: 48px;
     margin-bottom: 30px;
 }
+.main-heading-2 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
 .lead-paragraph {
     font-size: 33px;
     line-height: 1.6;
@@ -116,5 +121,18 @@ p {
     /* max-width: 100%; */
     border-radius: 15px;
     box-shadow: 0 15px 30px black;
+    object-fit: contain;;
+    margin-top: -250px;
+}
+.mainimage {
+    width: 40%;
+    box-shadow: 0 15px 30px black;
+    border-radius: 15px;
     object-fit: contain;
+    position: absolute;
+    top: 180%;
+    left: 50%;
+    margin-left: 5%;
+
+  
 }
