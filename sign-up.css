@@ -5,6 +5,28 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.home {
+    top: 0;
+    left: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    backdrop-filter:blur(20px);
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+}
+.home a {
+    text-decoration: none;
+    display: flex;
+    color: white;
+}
+.home:hover a {
+    color: black;
+}
 /* .navbar { 
     height: 100px;
     background-color:#5D3A1A;
