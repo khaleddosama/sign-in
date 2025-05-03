@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <title>Egyptian Museum Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+    }
+    * {
+    text-decoration: none;
+}
+.navbar { 
+    position: static;
+    top: 0;
+    /* background: #7d7d7d; */
+    background-color: transparent;
+    backdrop-filter:blur(10px);
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a {
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    cursor: default;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+li a {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+button {
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+}
+button a {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+button:hover {
+    background-color: white;
+    transition: 0.5s;
+}
+button:hover a {
+    color: black;
+}
+input {
+    padding: 3px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: white;
+}
+::placeholder {
+    color: grey;
+    font-weight: bold;
+    opacity: 1;
+}
+   .big-img{
+    height: 705px;
+    width: 100%;
+    background-size: cover ;
+    margin:0px 0px 30px 0px;
+   }
+   
+    
+    .gallery {
+      display: grid; 
+      grid-template-columns: repeat(3, minmax(250px, 1fr));
+       gap: 20px; 
+    }
+    .gallery-item {
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+       transition: transform 0.3s ease; 
+    }
+    .gallery-item:hover {
+       transform: scale(1.02); 
+    }
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      display: block;   
+    }
+    .info {
+      padding: 15px;
+    }
+    .info h3 {
+      margin: 0 0 5px;
+    }
+    .info p {
+      font-size: 14px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="#">The Grand Egyptian Museum</a></div>
+            <ul>
+                <input type="search" placeholder="Search" name="search">
+                <li><a href="main.html">Home</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Get Ticket</a></li>
+                <button><a href="sign-in.html">Sign in</a></button>
+                <button><a href="sign-up.html">Sign up</a></button>
+            </ul>
+        </div>
+    </nav>
+     
+    <img class="big-img" src="history.jpg" alt="">
+ 
+  <div class="gallery">
+
+    <div class="gallery-item">
+      <img src="ramses.jpg" alt="Statue of Ramses II">
+      <div class="info">
+        <h3>Statue of Ramses II</h3>
+        
+        <p>This 3,200-year-old statue of Ramses II was relocated to the GEM in 2018 and now stands prominently in the museum's atrium </p>
+      </div>
+    </div>
+
+    <div class="gallery-item">
+      <img src=nedved.jpg alt="Statue of Queen Hatshepsut ">
+      <div class="info">
+        <h3>Statue of Queen Hatshepsut</h3>
+       
+        <p> A statue of one of Egypt's few female pharaohs, Hatshepsut, is part of the GEM's collection </p>
+      </div>
+    </div>
+
+    <div class="gallery-item">
+      <img src=tot.jpg alt="Tutankhamun’s Golden Mask">
+      <div class="info">
+        <h3>Tutankhamun’s Golden Mask</h3>
+
+        <p>This iconic funerary mask of the boy king Tutankhamun is part of the complete Tutankhamun collection being transferred to the GEM .</p>
+      </div>
+    </div>
+      
+        <div class="gallery-item">
+          <img src=masla.jpg alt="Hang Obelisk">
+          <div class="info">
+            <h3>Hang Obelisk</h3>
+            <p>The Hanging Obelisk is one of the key architectural features at the GEM and is not an ancient artifact, but a modern display element with deep symbolic meaning. </p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src=asar.jpg alt="Golden Sarcophagus of Tutankhamun">
+          <div class="info">
+            <h3>Golden Sarcophagus of Tutankhamun</h3>
+            <p>The Golden Sarcophagus of Tutankhamun is a lavish, solid gold coffin that housed the young pharaoh's mummy, symbolizing his divine status and the wealth of 18th Dynasty Egypt.
+            </p>
+          </div>
+        </div> 
+        <div class="gallery-item">
+          <img src=sorsar.jpg alt="">
+          <div class="info">
+            <h3>Tutankhamun’s Royal Jewelry</h3>
+            <p>A collection of ornate jewelry pieces, including necklaces, bracelets, and rings, showcasing the craftsmanship and opulence of the New Kingdom</p>
+          </div>
+        </div> 
+            <div class="gallery-item">
+              <img src=tttttttt.jpg alt="">
+              <div class="info">
+                <h3>4,000-Year-Old Preserved Crocodile</h3>
+                <p> A remarkably preserved crocodile mummy, exemplifying the ancient Egyptians' reverence for the Nile and its creatures.</p>
+              </div>
+            </div>
+              
+              <div class="gallery-item">
+                <img src=aaaaaaaaaaaa.jpg alt="Khufu's solar boat">
+                <div class="info">
+                  <h3>Khufu's solar boat</h3>
+                  <p>The Khufu Boat is a 4,600-year-old, fully preserved cedarwood funerary ship built for Pharaoh Khufu, symbolizing his journey with the sun god Ra in the afterlife</p>
+                </div>
+              </div>
+              <div class="gallery-item">
+                <img src=xxxxxxxxxxxx.jpg alt="">
+                <div class="info">
+                  <h3>Tutankhamun’s Chariots</h3>
+                  <p>These chariots, discovered in Tutankhamun's tomb, are among the artifacts being moved to the GEM </p>
+                </div>
+              </div>
+
+      
+    
+
+    
+
+  </div>
+
+</body>
+</html>
