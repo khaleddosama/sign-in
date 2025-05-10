@@ -1,100 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ticket.css">
     <title>Museum Tickets</title>
     <button onclick="document.body.classList.toggle('dark')" class="dark">Dark Mode</button>
-    <style>
-        body {
-            font-family: Arial;
-            max-width: 500px;
-            margin: 20px auto;
-            padding: 10px;
-        }
-        .home {
-            position: absolute;
-            top: 20px;
-            left: 50px;
-            display: flex;
-            backdrop-filter:blur(20px);
-            background: transparent;
-            border: 2px solid rgb(0, 0, 0);
-            border-radius: 20px;
-            color: rgb(0, 0, 0);
-            font-size: 15px;
-            padding: 10px;
-        }
-        .home a {
-            text-decoration: none;
-            display: flex;
-            color: rgb(0, 0, 0);
-        }
-        .home:hover a {
-            color: rgb(49, 7, 7);
-        }
-        body.dark {
-            background: #121212;
-            color: #fff;
-        }
-        .dark{
-            color: white;
-            background-color: black;
-            border-radius: 10px;
-            padding: 10px;
-        }
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-        .section {
-            border: 1px solid #ddd;
-            padding: 15px;
-            margin-bottom: 15px;
-            border-radius: 5px;
-        }
-        .ticket-row {
-            display: flex;
-            margin: 10px 0;
-            align-items: center;
-        }
-        .ticket-name {
-            flex: 1;
-        }
-        .ticket-price {
-            width: 80px;
-            text-align: right;
-            margin-right: 15px;
-            color: #c00;
-        }
-        input[type="number"] {
-            width: 40px;
-            padding: 5px;
-        }
-        #total {
-            font-size: 18px;
-            text-align: right;
-            margin: 20px 0;
-        }
-        #totalAmount {
-            font-weight: bold;
-            color: #c00;
-        }
-        button {
-            background: #4CAF50;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            display: block;
-            margin: 0 auto;
-        }
-        #thankYou {
-            text-align: center;
-            margin-top: 20px;
-            color: #090;
-            display: none;
-        }
-    </style>
 </head>
 <body>
      <button class="home">
