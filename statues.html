@@ -13,6 +13,13 @@
     * {
     text-decoration: none;
 }
+body.dark {
+  background: #121212;
+  color: #000000;
+}
+.dark{
+    color: white;
+}
 .navbar { 
     position: static;
     top: 0;
@@ -116,6 +123,7 @@ input {
 </head>
 <body>
     <nav class="navbar">
+      <button onclick="document.body.classList.toggle('dark')" class="dark">Dark Mode</button>
         <div class="navdiv">
             <div class="logo"><a href="#">The Egyptian Museum</a></div>
             <ul>

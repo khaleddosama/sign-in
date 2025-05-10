@@ -2,11 +2,43 @@
 <html>
 <head>
     <title>Museum Tickets</title>
+    <button onclick="document.body.classList.toggle('dark')" class="dark">Dark Mode</button>
     <style>
         body {
             font-family: Arial;
             max-width: 500px;
             margin: 20px auto;
+            padding: 10px;
+        }
+        .home {
+            position: absolute;
+            top: 20px;
+            left: 50px;
+            display: flex;
+            backdrop-filter:blur(20px);
+            background: transparent;
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 20px;
+            color: rgb(0, 0, 0);
+            font-size: 15px;
+            padding: 10px;
+        }
+        .home a {
+            text-decoration: none;
+            display: flex;
+            color: rgb(0, 0, 0);
+        }
+        .home:hover a {
+            color: rgb(49, 7, 7);
+        }
+        body.dark {
+            background: #121212;
+            color: #fff;
+        }
+        .dark{
+            color: white;
+            background-color: black;
+            border-radius: 10px;
             padding: 10px;
         }
         h1 {
@@ -65,6 +97,9 @@
     </style>
 </head>
 <body>
+     <button class="home">
+        <a href="main.html" target="_blank">Home</a>
+    </button>
     <h1>Museum Tickets</h1>
 
     <div class="section">
